@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP is cool</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/master.js"></script>
+    <script src="js/pager.js"></script>
+    <script src="js/sorter.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/pager.css">
+    <link rel="stylesheet" href="css/sorter.css">
+    <link rel="stylesheet" href="css/esd.css">
+</head>
+<body>
+    <div class="w3-container">
+        <p>
+            <button id="btn">Btn</button>
+        </p>
+            
+            <div id="obsah">
+        
+            </div>
+            <div class="myform">
+                <form action="" method="post" id="db_form">
+                    <label for="vec">Věc</label>
+                    <input type="text" name="vec" id="db_vec">
+                    <label for="cena">Cena</label>
+                    <input type="text" name="cena" id="db_cena">
+                    <input type="submit" value="Odešli">
+                </form>
+            </div>
+
+            <h3>Datepicker</h3>
+            <input type="text" id="mydate" />
+            <div id="datepicker"></div>
+
+    </div>
+
+    <div class="w3-container">
+        <p>
+            <button id="tpdata">Get TP data</button>
+        </p>
+        
+        <table class="tablepager tablesorter" id="alamo">
+            <thead>
+                <tr>
+                    <th colspan="2">Jméno celé</th>
+                </tr>
+                <tr>
+
+                    <th>First name</th>
+                    <th>Surname</th>
+                    <th>Age</th>
+                    <th>country</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
